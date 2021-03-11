@@ -1,0 +1,162 @@
+body{
+  font-family: 'Cherry Swash', cursive;
+font-family: 'Lato', sans-serif;
+margin: 0;
+padding: 0;
+line-height: 1.5;
+}
+
+.container{
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*========= header===== */
+.header{
+  width: 100%;
+height: 85px;
+  background: #4b96a1;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.header__inner{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+
+}
+
+
+.logo{
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Cherry Swash', cursive;
+  color: white;
+}
+.nav{
+  font-size: 18px;
+}
+.nav__link{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 30px;
+font-weight: 700;
+border-right: 1px solid white;
+padding-right: 10px;
+}
+.nav__link:hover{
+  color: #999933;
+  transition: 0.25s;
+}
+
+/* intrp======= */
+.intro{
+padding-top: 100px;
+height: 750px;
+  width: 100%;
+   background:url("C:/Users/Асрок/Desktop/new/image/intro.jpg")no-repeat ;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+
+}
+
+.intro__inner{
+
+
+}
+.intro__text{
+
+text-align: center;
+font-size: 70px;
+  font-family: 'Cherry Swash', cursive;
+  font-weight: 700;
+  color: white;
+
+}
+
+.intro__buttom{
+  margin-top: 30px;
+  text-align: center;
+}
+.intro__btm{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+
+  border: 2px solid white;
+  padding: 8px 30px;
+  border-radius: 3px;
+  border-color: #999999;
+}
+.intro__btm:hover{
+
+  transition: 0.25s;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/* info */
+.info{
+  margin-top: 90px;
+  width: 100;
+  height: 410px;
+}
+
+.info__text{
+  text-align: center;
+}
+.info__icon{
+text-align: center;
+margin-top: 50px;
+}
+.info__img{
+  margin: 0 40px;
+}
+
+/* about */
+.about{
+color: white;
+  width: 100%;
+  height: 500px;
+  background-image: url("C:/Users/Асрок/Desktop/new/image/about.jpg")
+}
+.about__inner{
+text-align: center;
+
+}
+.about__logo{
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+/* map */
+.map{
+  width: 100%;
+  height: 500px;
+  background: url("C:/Users/Асрок/Desktop/new/image/map.jpg")no-repeat;
+  background-size: 100%;
+}
+
+/* footer */
+.footer{
+  width: 100%;
+  height: 40px;
+  background: #009966;
+}
+.text{
+text-align: center;
+padding-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
